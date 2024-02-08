@@ -81,9 +81,10 @@ function App() {
             <div>
               <div className="header-text-wrapper">
                 <h1>CyberGuardians</h1>
-                <div>
-                  BGSU / Pre-College Programs / Summer Academic and Youth
-                  Programs / Available Camps and Programs / CyberGuardians
+                <div style={{fontSize: '0.8rem'}}>
+                  <a href="">BGSU</a> / <a href="">Pre-College Programs</a> /
+                  <a href=''>Summer Academic and Youth Programs</a> / <a href=''>Available Camps and
+                  Programs</a> / <a href=''>CyberGuardians</a>
                 </div>
               </div>
               <img
@@ -92,9 +93,7 @@ function App() {
               />
               <div className="bottom-main">
                 <div className="date-text">June 24-28, 2024</div>
-                <button className="apply-now-btn">
-                  Apply Now
-                </button>
+                <button className="apply-now-btn">Apply Now</button>
               </div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
