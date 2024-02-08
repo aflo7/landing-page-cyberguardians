@@ -92,7 +92,7 @@ function App() {
                 src="https://www.bgsu.edu/content/dam/BGSU/academics/data/Data-on-Computer-Screen.jpg/jcr:content/renditions/kraken-large.jpg"
               />
               <div className="bottom-main">
-                <div className="date-text">June 24-28, 2024</div>
+                <div className="date-text"><strong>June 24-28, 2024</strong></div>
                 <button className="apply-now-btn">Apply Now</button>
               </div>
               <p>
