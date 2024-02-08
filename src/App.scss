@@ -1,0 +1,160 @@
+.desktop-nav {
+  display: none;
+
+  .bgsu-header {
+    text-transform: uppercase;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.date-text {
+  font-size: 2rem;
+}
+
+.mobile-nav {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(251, 72, 33);
+  color: white;
+
+  .mobile-nav-right-wrapper {
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+  }
+}
+
+.left-main {
+  display: none;
+}
+main {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.bottom-main {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.cybersecurity-image {
+  width: 100%;
+}
+.apply-now-btn {
+  background-color: rgb(251, 72, 33);
+  padding: 5px 30px;
+  padding-right: 0px;
+  color: white;
+  border-radius: 200px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+  .md-arrow-right {
+    font-size: 2rem;
+    color: gray;
+  }
+}
+
+.middle-main > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.bgsu-header {
+  display: none;
+}
+
+.right-bottom-desktop-nav {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .bgsu-header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(69, 39, 29);
+    color: white;
+    border-bottom-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    padding: 10px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .desktop-nav {
+    display: block;
+    color: white;
+    padding: 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .desktop-nav > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  .desktop-nav-wrapper {
+    background-color: rgb(251, 72, 33);
+  }
+
+  .middle-main {
+    display: flex;
+    gap: 30px;
+  }
+  .mobile-nav {
+    display: none;
+  }
+
+  .left-main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .left-main > div {
+    border-left: 1px solid rgb(251, 72, 33);
+    padding: 10px;
+    width: 260px;
+    color: rgb(251, 72, 33);
+    cursor: pointer;
+  }
+  .left-main > div:hover {
+    background-color: rgb(251, 72, 33);
+    color: white;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .left-main > div {
+    width: 340px;
+  }
+
+  .right-bottom-desktop-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .right-bottom-desktop-nav > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
