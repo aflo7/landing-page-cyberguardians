@@ -7,7 +7,7 @@ import { RxDividerVertical } from 'react-icons/rx';
 import { FaGift } from 'react-icons/fa';
 import { GoMail } from 'react-icons/go';
 
-import { GrMail } from "react-icons/gr";
+import { GrMail } from 'react-icons/gr';
 function App() {
   return (
     <>
@@ -44,25 +44,25 @@ function App() {
               }}
             >
               <div style={{ display: 'flex', gap: '20px' }}>
-                <div>Academics</div>
-                <div>Admissions</div>
-                <div>About</div>
-                <div>Athletics</div>
-                <div>Alumni</div>
-                <div>Libraries</div>
-                <div>Research</div>
-                <div>Students</div>
-                <div>International</div>
-                <div>News</div>
+                <div>Mock</div>
+                <div>Mock</div>
+                <div>Mock</div>
+                <div>Mock</div>
+                <div>Mock</div>
+                <div>Mock</div>
+                <div>Mock</div>
+                <div>Mock</div>
+                <div>Mock</div>
+                <div>Mock</div>
               </div>
               <div className="right-bottom-desktop-nav">
                 <div>
-                  Gift
+                  Mock
                   <FaGift />
                 </div>
-                <div>MyBGSU</div>
+                <div>Mock</div>
                 <div>
-                  Email
+                  Mock
                   <GrMail />
                 </div>
               </div>
@@ -91,7 +91,7 @@ function App() {
                 src="https://www.bgsu.edu/content/dam/BGSU/academics/data/Data-on-Computer-Screen.jpg/jcr:content/renditions/kraken-large.jpg"
               />
               <div className="bottom-main">
-                <div className='date-text'>June 24-28, 2024</div>
+                <div className="date-text">June 24-28, 2024</div>
                 <button className="apply-now-btn">
                   Apply Now
                   <MdArrowRight className="md-arrow-right" />
