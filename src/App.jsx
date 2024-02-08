@@ -1,14 +1,10 @@
-import { useState } from 'react';
-import './App.scss';
+import './App.css';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoIosSearch } from 'react-icons/io';
-import { MdArrowRight } from 'react-icons/md';
-import { RxDividerVertical } from 'react-icons/rx';
 import { FaGift } from 'react-icons/fa';
-import { GoMail } from 'react-icons/go';
-
 import { GrMail } from 'react-icons/gr';
-function App() {
+
+export default function App() {
   return (
     <>
       <nav className="mobile-nav">
@@ -81,10 +77,11 @@ function App() {
             <div>
               <div className="header-text-wrapper">
                 <h1>CyberGuardians</h1>
-                <div style={{fontSize: '0.8rem'}}>
+                <div style={{ fontSize: '0.8rem' }}>
                   <a href="">BGSU</a> / <a href="">Pre-College Programs</a> /
-                  <a href=''>Summer Academic and Youth Programs</a> / <a href=''>Available Camps and
-                  Programs</a> / <a href=''>CyberGuardians</a>
+                  <a href="">Summer Academic and Youth Programs</a> /{' '}
+                  <a href="">Available Camps and Programs</a> /{' '}
+                  <a href="">CyberGuardians</a>
                 </div>
               </div>
               <img
@@ -92,7 +89,9 @@ function App() {
                 src="https://www.bgsu.edu/content/dam/BGSU/academics/data/Data-on-Computer-Screen.jpg/jcr:content/renditions/kraken-large.jpg"
               />
               <div className="bottom-main">
-                <div className="date-text"><strong>June 24-28, 2024</strong></div>
+                <div className="date-text">
+                  <strong>June 24-28, 2024</strong>
+                </div>
                 <button className="apply-now-btn">Apply Now</button>
               </div>
               <p>
@@ -114,5 +113,3 @@ function App() {
     </>
   );
 }
-
-export default App;
