@@ -94,7 +94,6 @@ function App() {
                 <div className="date-text">June 24-28, 2024</div>
                 <button className="apply-now-btn">
                   Apply Now
-                  <MdArrowRight className="md-arrow-right" />
                 </button>
               </div>
               <p>

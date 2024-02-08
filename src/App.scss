@@ -46,27 +46,20 @@ main {
 .bottom-main {
   display: flex;
   align-items: center;
-  gap: 100px;
+  justify-content: space-between;
 }
 .cybersecurity-image {
   width: 100%;
 }
 .apply-now-btn {
   background-color: rgb(251, 72, 33);
-  padding: 5px 30px;
-  padding-right: 0px;
+  padding: 10px 20px;
   color: white;
   border-radius: 200px;
   border: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   cursor: pointer;
+  font-size: 1.2rem;
 
-  .md-arrow-right {
-    font-size: 2rem;
-    color: gray;
-  }
 }
 
 .middle-main > div:nth-child(2) {
@@ -114,6 +107,10 @@ main {
   .desktop-nav-wrapper {
     background-color: rgb(251, 72, 33);
   }
+
+.bottom-main {
+  width: 500px;
+}
 
   .middle-main {
     display: flex;
